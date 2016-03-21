@@ -89,14 +89,6 @@ nav{display: block;height: 200px;}
     float: left;
 }
 
-#tabs-list > li > a{
-	background-color: #646464;
-    color: white;
-    display: block;
-    font-size: 1.1rem;
-    text-decoration: none;
-}
-
 #tabs-list> li:last-child{
 	margin-right: 0px;
 }
