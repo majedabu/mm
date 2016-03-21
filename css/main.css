@@ -25,9 +25,6 @@ nav{
     margin-left: 8%;
     margin-right: 8%;
 }
-.search-box {float: right;width:100%;max-width: 180px;}
-
-.input-search{outline: none;border-radius: 10px;height: 30px; width: 90% }
 
 .page-body{
     padding: 16px;
