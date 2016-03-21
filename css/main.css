@@ -89,9 +89,9 @@ nav{display: block;height: 200px;}
 
 #quickReports, #my-folders, #myTeamFolders, #public-folders{width: 100%;background: #E5E5E5;position: relative;}
 
-#quickReports,#myTeamFolders { height:353px;}
+#quickReports,#myTeamFolders { min-height:353px;}
 
-#my-folders, #public-folders {height: 750px;}
+#my-folders, #public-folders {min-height: 750px;}
 .active{background-color: #E5E5E5 !important;color: black !important;}
 
 .hidden{ display: none !important;}
