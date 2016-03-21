@@ -1,0 +1,123 @@
+
+body {font-family: 'Open Sans', sans-serif; min-width:661px;margin: 0;font-size: 14px;background: url("../img/body-background.jpg") center center / cover no-repeat fixed ;}
+a{text-decoration: none;color: black;}
+header {padding-top: 15px;padding-bottom: 10px;background: black;}
+
+.layout-wrap {margin-left: 8%;margin-right: 8%;}
+
+.search-box {float: right;width:100%;max-width: 180px;}
+
+.input-search{outline: none;border-radius: 10px;height: 30px; width: 90% }
+
+.page-body {padding: 16px;background-color: rgba(0, 0, 0, 0.4);}
+
+.notifications {background-color: #E5E5E5;padding: 1rem 2rem;margin-bottom: 2rem;}
+
+.nav-section {float: left;margin-right: 3%;position: relative;width: 31.33%;display: table;}
+
+.nav-section > p {color: #fff;font-size: 1.5rem;line-height: 1.3; margin-top: 10px; text-align: center; margin-bottom: 70px;}
+
+nav{display: block;height: 200px;}
+
+.menu-caption {background: #E5E5E5; padding: 1px; height: 38px;}
+
+.menu-caption > p { float: left; margin: 10px 10px;}
+
+@media (max-width: 950px){.nav-section > p { font-size: 1rem;}}
+
+@media (max-width: 850px){
+.nav-section > p { font-size: 0.8rem;}
+.menu-caption > p {font-size: 0.7rem;}
+.tabs >ul > li > a{font-size: rem;}}
+
+.menu-caption:after { content: ""; width: 0; height: 0; border-left: 10px solid transparent; 
+border-right: 10px solid transparent; border-top: 10px solid black; float: right;  margin: 1em;}
+
+.action-list {list-style: none;margin: 0;padding: 0;background: #E5E5E5;display: none;}
+
+.action-list > li {padding: 10px;border-bottom: 1px solid #e6e6e6;}
+.action-list > li :hover {	background:  #E5E5E5;}
+
+#report-platform{ background: url("../img/action-report-new.png") left 50% top 75px no-repeat black; background-size: 40%; }
+
+#dashboard{ background: url("../img/action-report-top.png") left 50% top 75px no-repeat black;  background-size: 40%; }
+
+#help-tutorails{ background: url("../img/actions-help.png") left 50% top 75px no-repeat black; background-size: 40%;}
+
+.nav-section:last-child { margin-right: 0;}
+
+.nav-section:hover { background-color: #333333 !important;cursor: pointer;}
+
+.nav-section:hover > .menu >.action-list{  display: block; position: absolute; width: 100%; z-index: 1; background-color: white;
+    box-shadow: 0 2px 6px 2px rgba(50, 50, 50, 0.3); transition: height 0.4s ease-in;}
+
+.nav-section:hover > .menu > .menu-hint:after{ border-top: none; border-bottom: 10px solid black;}
+
+.tabs >ul{ list-style: outside none none; margin: 0; padding: 0; margin-top: 20px; height: 50px;}
+
+.tabs >ul> li{height: 50px;line-height: 50px;margin-right: 3%;text-align: center;width: 22.75%;float: left;}
+
+.tabs >ul > li > a{background-color: #646464;color: white;display: block;font-size: 1.1rem;text-decoration: none;}
+
+.tabs >ul> li:last-child{margin-right: 0px;}
+
+.tabs >ul> li:hover{cursor: pointer;}
+
+#quickReports, #my-folders, #myTeamFolders, #public-folders{width: 100%;background: #E5E5E5;position: relative;}
+
+#quickReports,#myTeamFolders {height: 500px;}
+
+#my-folders, #public-folders {height: 700px;}
+
+.active{ background-color: #E5E5E5 !important; color: black !important;}
+
+.hidden{display: none !important;}
+@media (max-width: 850px){
+.tabs >ul > li > a{font-size: 0.8rem;}}
+
+/********************************** QUICK REPORTS *****************************************/
+.report-names-ddl{display: inline-block;height: 35px;margin: 16px;padding-left: 16px;position: absolute;width: 250px;}
+
+.q-r-btn{width: 45px;height: 45px;position: absolute;background-repeat: no-repeat;background-position: center;color: transparent;}
+
+.settings{background-image: url("../img/settings.png");border: none;margin-top: 18px;right: 16px;background-color: white;padding: 10px;cursor: pointer;}
+
+.expand{background-image: url("../img/expand.png");margin-top: 20px;}
+
+.quick-reports-buttons > .expand{right: 60px;}
+
+.quick-reports-form, .form-my-team-form{background: white none repeat scroll 0 0;box-shadow: 0 2px 6px 2px rgba(50, 50, 50, 0.3);height: 260px;
+left: 0;margin: 0 0 0 16px;overflow: hidden;padding: 16px;position: absolute;right: 16px;top: 63px;}
+
+.report-row{background-color: #dcdada;font-size: 1.1rem;height: 35px;padding: 7px 1.51515%;position: relative;margin-bottom: 16px;border: 0 none;}
+
+.report-number{position: absolute;top: 15px;}
+
+.input-feild {height: 36px;position: absolute;}
+
+.report-name {left: 16%;width: 37%;}
+
+.report-url {left: 59.5%;width: 40%;}
+
+.report-input {border: medium none;direction: ltr;font-size: 0.8rem;height: 32px;padding: 0 4%;position: inherit;left: 15%;width: 70%;}
+
+.report-label{position: absolute;top: 21%;}
+
+.f-footer {float: right;font-size: 0.9rem;}
+
+.cancel{color: black;width: 45px;border: none;text-decoration: underline;cursor: pointer;background-color: transparent;}
+
+.save {background-color: black;border: 0 none;color: white;height: 30px;width: 100px;}
+
+/*for settings button*/
+.transperntBG{background-color: transparent !important;}
+
+/******************************************************************************/
+
+.my-folders-content{height: 630px;padding-top: 60px;padding-left: 20px;padding-right: 20px;}
+
+.iframe{width: 100%;height: 98%;}
+
+.my-folders-buttons > .expand{right: 20px;}
+
+.adjust-to-iframe{height: 430px;padding-top: 63px;padding-left: 20px;padding-right: 20px;}
