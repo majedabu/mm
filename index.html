@@ -7,22 +7,21 @@
 	<link rel="stylesheet" type="text/css" href="fonts/style.css">
 </head>
 <body>
-	<header>
-	  <div class="layout-wrap">
-	    <a href="#">
-	    	<img src="img/logo-netcraft.svg" alt="netcraft">
-    	</a>
-	    <form class="search-form" onsubmit="event.preventDefault()">
-	    	<label class="hidden" for="searchBox">search</label>
-	        <input class="search-box" type="search" placeholder="search" id="searchBox">
-	    </form>
-	  </div>
+<header>
+		<div class="layout-wrap">
+			<a href="#"><img src="img/logo-netcraft.svg" alt="netcraft"></a>
+
+			<form class="search-box">
+				<input class="input-search" type="search" name="q" placeholder="search..">
+			</form>
+		</div>
 	</header>
+
 
 	<div class="page-body layout-wrap">
 	    <div class="notifications">
 	    </div>
-	    <nav>
+ 		 <nav>
 	        <div class="nav-section reporting-platform">
 	            <div class="menu">
 	                <div class="menu-hint">
@@ -50,6 +49,7 @@
 	            </div>
 	        </div>
 	    </nav>
+
 
 	    <div class="tabs">
 	        <ul id="tabs-list">
@@ -212,7 +212,6 @@
  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
  	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
-	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>
