@@ -48,7 +48,7 @@ nav{display: block;height: 200px;}
 
 .menu{position:absolute; width:100%;}
 
-.menu-hint{background: #E5E5E5;height: 38px;/* height: 70px; */}
+.menu-hint{background: #E5E5E5;height: 38px;}
 
 .menu-hint > p{float: left;margin: 10px 10px;}
 
@@ -56,8 +56,10 @@ nav{display: block;height: 200px;}
     border-top: 13px solid black; float: right;  margin: 1em; -webkit-transition: 0.5s all;
 
  }
-
- @media (max-width: 900px){
+#img-bg{
+    background-size:48% !important;
+}
+ @media (max-width: 910px){
 .menu-hint:after{
     border: 14px solid transparent;
     border-top: 10px solid black;
