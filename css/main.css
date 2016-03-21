@@ -1,4 +1,4 @@
-body {font-family: 'Open Sans', sans-serif; min-width:661px;margin: 0;font-size: 14px;background: url("../img/body-background.jpg") center center / cover no-repeat fixed ;}
+body {font-family: 'Open Sans', sans-serif; min-width:651px;margin: 0;font-size: 14px;background: url("../img/body-background.jpg") center center / cover no-repeat fixed ;}
 a{text-decoration: none;color: black;}
 
 /********************** header style **************************/
@@ -32,24 +32,19 @@ nav{display: block;height: 200px;}
 }
 
 .menu-hint > p{
-	/* padding-left: 15px; */
 	float: left;
-	-webkit-margin-before: 0;
-	-webkit-margin-after: 0;
 	margin: 10px 10px;
 }
 
 .menu-hint:after{
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 9px solid black;
 	content: "";
 	width: 0;
 	height: 0;
-	border-left: 10px solid transparent;
-	border-right: 10px solid transparent;
-	border-top: 10px solid black;
 	float: right;
 	margin: 1em;
-	-moz-transition: 0.5s all;
-	-webkit-transition: 0.5s all;
 }
 
 .nav-section:hover {
