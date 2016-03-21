@@ -31,8 +31,10 @@ nav{
     background-color: rgba(0, 0, 0, 0.4);
 }
 .search-form{
-	float: right;
+	float: right;width:100%;max-width: 180px;
 }
+
+.search-box {outline: none;border-radius: 10px;height: 30px; width: 90% }
 
 .notifications{
     background-color: #E5E5E5;
