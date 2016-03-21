@@ -12,7 +12,7 @@ header {padding-top: 15px;padding-bottom: 12px;background: black;}
 .search-box {outline: none;border-radius: 10px;height: 30px; width: 90% }
 
 .notifications {padding: 1rem 2rem; margin-bottom: 2rem; border: 1px solid transparent;
- width: 100%; box-sizing: border-box; transition: border-color .5s, width .5s, margin-bottom .5s, opacity .5s;}
+ background-color: #E5E5E5; width: 100%; box-sizing: border-box; transition: border-color .5s, width .5s, margin-bottom .5s, opacity .5s;}
 
 .nav-section {float: left;margin-right: 3%;position: relative;width: 30%;display: table;}
 
@@ -22,7 +22,7 @@ header {padding-top: 15px;padding-bottom: 12px;background: black;}
 
 @media (max-width: 950px){.nav-section > p { font-size: 1rem;}}
 
-@media (max-width: 850px){
+@media (max-width: 830px){
 
 .nav-section > p { font-size: 0.8rem;}
 
@@ -46,7 +46,7 @@ nav{display: block;height: 200px;}
 
 .action-list > li > a{ text-decoration: none;color: black;}
 
-.menu-hint{background: #E5E5E5; padding: 1px;height: 38px;}
+.menu-hint{width:100%; position:absolute;background: #E5E5E5;height: 38px;}
 
 .menu-hint > p{float: left;margin: 10px 10px;}
 
@@ -54,16 +54,22 @@ nav{display: block;height: 200px;}
     border-top: 13px solid black; float: right;  margin: 1em; -webkit-transition: 0.5s all;
 
  }
- @media (max-width: 850px){
+
+ @media (max-width: 900px){
 .menu-hint:after{
     border: 14px solid transparent;
     border-top: 10px solid black;
 }}
-@media (max-width: 850px){
+ @media (max-width: 750px){
 .menu-hint:after{
-    border: 8px solid transparent;
-    border-top: 7px solid black;
+     border: 8px solid transparent; 
+     border-top: 7px solid black; 
+}
+.menu-hint > p {
+    font-size: 0.618rem;
 }}
+
+
 
 .nav-section:hover { background-color: #333333 !important; cursor: pointer;}
 .nav-section:hover > .menu >.action-list{display: block;position: absolute;width: 100%;z-index: 1;
