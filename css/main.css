@@ -91,7 +91,7 @@ nav{display: block;height: 200px;}
 
 #quickReports,#myTeamFolders { min-height:353px;}
 
-#my-folders, #public-folders {min-height: 750px;}
+#my-folders, #public-folders {min-height: 725px;}
 .active{background-color: #E5E5E5 !important;color: black !important;}
 
 .hidden{ display: none !important;}
