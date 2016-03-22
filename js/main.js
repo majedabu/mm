@@ -28,11 +28,11 @@ function updateQuickAction(quickActions){
 	if(quickActions !== undefined){
 
 		var navSectionsContent = qsa(".nav-section");
-		var menuHintContent = qsa(".menu-hint");
+		var menucaptionContent = qsa(".menu-caption");
 		var actionLists = qsa(".action-list");
 		for(var i=0; i < quickActions.length; i++){
 		   
-		    menuHintContent[i].innerHTML = "<p>" + quickActions[i].actionsLabel + "</p>" + menuHintContent[i].innerHTML;		
+		    menucaptionContent[i].innerHTML = "<p>" + quickActions[i].actionsLabel + "</p>" + menucaptionContent[i].innerHTML;		
 
 		    for(var j=0; j < quickActions[i].actions.length; j++){
 				actionLists[i].innerHTML += "<li><a href=\"" + quickActions[i].actions[j].url + "\">" + quickActions[i].actions[j].label + "</a></li>"
