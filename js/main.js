@@ -31,12 +31,14 @@ function updateQuickAction(quickActions){
 		var menuHintContent = qsa(".menu-hint");
 		var actionLists = qsa(".action-list");
 		for(var i=0; i < quickActions.length; i++){
+		   
+		    menuHintContent[i].innerHTML = "<p>" + quickActions[i].actionsLabel + "</p>" + menuHintContent[i].innerHTML;		
+
 		    for(var j=0; j < quickActions[i].actions.length; j++){
 				actionLists[i].innerHTML += "<li><a href=\"" + quickActions[i].actions[j].url + "\">" + quickActions[i].actions[j].label + "</a></li>"
     		}
 			navSectionsContent[i].innerHTML = "<p>" + quickActions[i].label + "</p>" + navSectionsContent[i].innerHTML;
 			navSectionsContent[i].style.background = "url(./img/"+ quickActions[i].icon +".png) left 50% top 75px no-repeat black";
-	     	menuHintContent[i].innerHTML = "<p>" + quickActions[i].actionsLabel + "</p>" + menuHintContent[i].innerHTML	;		
 	
 		}
 	}
