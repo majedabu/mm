@@ -36,7 +36,7 @@ function updateQuickAction(quickActions){
     		}
 			navSectionsContent[i].innerHTML = "<p>" + quickActions[i].label + "</p>" + navSectionsContent[i].innerHTML;
 			navSectionsContent[i].style.background = "url(./img/"+ quickActions[i].icon +".png) left 50% top 75px no-repeat black";
-	     	menuHintContent[i].innerHTML = "<p>" + quickActions[i].actionsLabel + "</p>" + menuHintContent[i].innerHTML			
+	     	menuHintContent[i].innerHTML = "<p>" + quickActions[i].actionsLabel + "</p>" + menuHintContent[i].innerHTML	;		
 	
 		}
 	}
